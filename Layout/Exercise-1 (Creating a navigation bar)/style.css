@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.item {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.nav {
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*  This styles apply only if the screen size is less than 300px*/
+@media only screen and (max-device-width: 320px) {
+  .nav {
+    background-color: black;
+  }
+}
+
+/* This style apply only if the screen size is higher than 300px */
+@media only screen and (min-device-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: black;
+  }
+}

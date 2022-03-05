@@ -1,0 +1,19 @@
+*, 
+*::before,
+ *::after
+{
+    box-sizing: border-box;
+}
+body{margin: 10px;} 
+.box::before {
+    content: "Hello";
+}
+.box{
+    width: 100px;
+    height: 100px; 
+    background-color: gold;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}

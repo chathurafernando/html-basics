@@ -1,0 +1,15 @@
+.avator {
+  height: 5rem;
+  width: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 0.5rem;
+}
+.tweet {
+  border: 3px solid lightgray;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
